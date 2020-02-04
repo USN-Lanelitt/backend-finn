@@ -8,7 +8,7 @@ users:
   controller: App\Controller\UserController::getUsers
 
 registerUser:
-  path: /api/registerUser
+  path: /api/register
   controller: App\Controller\RegisterUser::registerUser
 
 login:
